@@ -1,5 +1,9 @@
 import './App.css';
-import ImgList from './components/layout/ImgList';
+// import BreadCrumbs from './components/navigation/BreadCrumbs';
+import MuiDrawer from './components/navigation/MuiDrawer';
+// import MuiLink from './components/navigation/MuiLink';
+// import ImgList from './components/layout/ImgList';
+import NavBar from './components/navigation/NavBar';
 // import MuiAccordion from './components/layout/MuiAccordion';
 // import MuiCard from './components/layout/MuiCard';
 // import MuiGrid from './components/layout/MuiGrid';
@@ -20,7 +24,8 @@ import ImgList from './components/layout/ImgList';
 function App() {
   return (
     <div className='App'>
-      <ImgList />
+      <NavBar />
+      <MuiDrawer />
     </div>
   );
 }
@@ -31,5 +36,8 @@ function App() {
 // rating 5:00
 // Read more options of autocomplete
 // 19 Accordion
+// Menu 7:10
+// Breadcrumps 4:00
+// Drawer 3:44
 
 export default App;
