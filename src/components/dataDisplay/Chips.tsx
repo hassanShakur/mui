@@ -4,7 +4,6 @@ import { Avatar, Chip, Stack } from '@mui/material';
 const Chips = () => {
   const chipDelHandler = (deletedChip: string) => {
     // filter out this chip from array of chips
-    console.log(deletedChip);
   };
 
   return (
