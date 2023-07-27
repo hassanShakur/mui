@@ -1,4 +1,5 @@
-import { Button, Stack } from '@mui/material';
+import { Send } from '@mui/icons-material';
+import { Button, IconButton, Stack } from '@mui/material';
 
 const Btn = () => {
   return (
@@ -51,7 +52,21 @@ const Btn = () => {
           error
         </Button>
       </Stack>
+
+      <hr />
+
+      <Stack display={'block'} spacing={2} direction={'row'}>
+        <Button variant='contained' size='small' startIcon={<Send />}>
+          send
+        </Button>
+
+        <IconButton>
+          <Send color='info'/>
+        </IconButton>
+      </Stack>
     </Stack>
+    // You can remove the shadow by disableElevation prop
+    // Also disableripple
   );
 };
 

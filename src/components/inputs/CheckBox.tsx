@@ -6,6 +6,8 @@ import {
   FormGroup,
   FormLabel,
 } from '@mui/material';
+
+import { BookmarkBorder, Bookmark } from '@mui/icons-material';
 import { useState } from 'react';
 
 type SkillsProp = React.ChangeEvent<HTMLInputElement>;
@@ -39,6 +41,12 @@ const CheckBox = () => {
             />
           }
           label='I accept terms & conditions'
+        />
+      </Box>
+      <Box>
+        <Checkbox
+          icon={<Bookmark />}
+          checkedIcon={<BookmarkBorder />}
         />
       </Box>
 

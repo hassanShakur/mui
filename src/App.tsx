@@ -1,9 +1,15 @@
 import './App.css';
+import Chips from './components/dataDisplay/Chips';
+// import MuiBadge from './components/dataDisplay/MuiBadge';
+// import MuiList from './components/dataDisplay/MuiList';
+// import MuiAvatar from './components/dataDisplay/MuiAvatar';
+// import BottomNav from './components/navigation/BottomNav';
 // import BreadCrumbs from './components/navigation/BreadCrumbs';
-import MuiDrawer from './components/navigation/MuiDrawer';
+// import MuiDrawer from './components/navigation/MuiDrawer';
+// import MuiSpeedDial from './components/navigation/MuiSpeedDial';
 // import MuiLink from './components/navigation/MuiLink';
 // import ImgList from './components/layout/ImgList';
-import NavBar from './components/navigation/NavBar';
+// import NavBar from './components/navigation/NavBar';
 // import MuiAccordion from './components/layout/MuiAccordion';
 // import MuiCard from './components/layout/MuiCard';
 // import MuiGrid from './components/layout/MuiGrid';
@@ -24,20 +30,11 @@ import NavBar from './components/navigation/NavBar';
 function App() {
   return (
     <div className='App'>
-      <NavBar />
-      <MuiDrawer />
+      <Chips />
     </div>
   );
 }
 
-// Buttons and togglebtns
-// Test InputAdornment with eye icon
-// checkbox 5:00
-// rating 5:00
 // Read more options of autocomplete
-// 19 Accordion
-// Menu 7:10
-// Breadcrumps 4:00
-// Drawer 3:44
 
 export default App;

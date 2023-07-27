@@ -16,6 +16,7 @@ const Ratings = () => {
   return (
     <Stack spacing={2}>
       <FormLabel>Rate the course</FormLabel>
+      {/* You can add icon and emptyicon as props to use own icons */}
       <Rating
         precision={0.5}
         value={rating}
